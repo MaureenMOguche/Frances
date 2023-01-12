@@ -216,6 +216,7 @@ button {
         font-weight: bolder;
         font-size: larger;
         margin: 0;
+        z-index: 3;
     }
     .menu-icon{
         display: block;
@@ -306,6 +307,11 @@ button {
 
     .about-frances{
         margin-bottom: 0;
+    }
+
+    .homeDiv{
+        position: fixed;
+        left: 0;
     }
 
 }

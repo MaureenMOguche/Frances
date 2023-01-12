@@ -14,9 +14,10 @@
 // }
 
 const mobileMenu = document.querySelector('.menu-icon');
-const topnav = document.querySelector('.left-nav');
+const indexnav = document.querySelector('.left-nav-index');
+const restnav = document.querySelector('.left-nav');
 
 
 mobileMenu.addEventListener('click', ()=>{
-    topnav.classList.toggle('show-nav');
+    restnav.classList.toggle('show-nav');
 })

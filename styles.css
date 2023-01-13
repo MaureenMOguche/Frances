@@ -64,7 +64,8 @@
     width: 80%;
     height: 100%;
     overflow-y: hidden;
-    background-image: url("images/francesmain.jpg");
+    background-color: grey;
+    /* background-image: url("images/francesmain.jpg"); */
     background-size: cover;
     background-position: 10%;
     position: fixed;
